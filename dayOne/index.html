@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--
+    1. To take amount and type of amount from user
+    2. To show all income records
+    3. To show all expense records
+    4. To show total income and totla expense
+    5.  To show profit or loss
+    -->
+
+    <label for=""> Amount</label>
+    <input type="text" placeholder="Amount" id="amount" required/> <br />
+
+    <label for="">Type</label>
+    <input type="text" id="type" placeholder="Type" required />
+
+    <br />
+    <button onclick="addRecord()">+Add Entry</button>
+
+
+    <div id="main">
+        <h1>Income Entires</h1>
+        <div id="incomeContainer">
+
+        </div>
+
+
+        <h1>Expense Entires</h1>
+                <div id="expenseContainer">
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
